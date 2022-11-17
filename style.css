@@ -72,10 +72,10 @@ background-position: 100% 0;
 .baner1{
     width: 400px;
     height: auto;
-    position: absolute;
+    /* position: absolute;
     z-index: 20;
     top: 0;
-    left: 0;
+    left: 0; */
     }
     
 .banner2-container{
@@ -99,9 +99,9 @@ background-position: 100% 0;
     
 
 .banner3-container{
-    width: 200px;
-    height: 200px;
-    background-color: #ffffff;
+    width: 35%;
+    height: 40%;
+    /* background-color: #ffffff; */
     border-radius: 50%;
     position: absolute;
     z-index: 50;
@@ -124,4 +124,9 @@ background-position: 100% 0;
     flex-direction: column;
     margin-right: 5%;
     width: 60%;
+    color: #ffffff;
+}
+
+.color{
+    color: #ff0076;
 }
