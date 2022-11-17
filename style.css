@@ -113,10 +113,10 @@ background-position: 100% 0;
 }
 
 .baner3 {
-       width: 100%;
-       height: auto;
-        object-fit: contain;
-        border-radius: 50%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 50%;
     }
 
 .contenedor-texto {
