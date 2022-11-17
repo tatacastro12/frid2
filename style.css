@@ -71,6 +71,7 @@ nav :hover {
     background: 0 0;
     width: 200px;
     text-align: center;
+    border: 2px solid #ffffff;
 }
 
 .from {
