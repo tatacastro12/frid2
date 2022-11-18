@@ -311,6 +311,9 @@ li {
 
 .section3 {
     width: 100vw;
+    display: flex;
+    justify-content: center;
+
     background-color: rgb(236, 241, 249, 0.3);
     font-family: 'Lexend', sans-serif;
     /* padding: 120px 0 90px 0; */
@@ -321,6 +324,8 @@ li {
     display: inline-block;
     /* margin: 0 128px; */
     height: auto;
+    text-align: -webkit-center;
+    padding-bottom: 100px;
 
 
 }
@@ -329,7 +334,7 @@ li {
     width: 100%;
     display: flex;
     /* grid-template-columns: repeat(3, 1fr); */
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     padding-top: 120px;
 
@@ -337,10 +342,12 @@ li {
 
 .nav--div__h2 {
     font-size: 26px;
+    margin-left: 30px;
+    margin-right: 100px;
 }
-
-.nav--following {
-    align-self: center;
+.nav--following{
+    align-self: center; 
+    margin-right: 150px;
 }
 
 .nav--following button {
@@ -386,10 +393,10 @@ li {
 .nav--li__img img {
     width: 20px;
     height: 20px;
+    margin-right: 9px;
+    margin-left: 4px;
 }
-
-.nav--li__img {
-    /* display: flex; */
+.nav--li__img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -399,16 +406,10 @@ li {
     color: white;
     background: linear-gradient(45deg, #590f87 0, #ff0076 50%, #590f87 100%);
     border: 1px solid rgb(88, 92, 117);
-    width: 120px;
-    height: 35px;
+    width: 135px;
+    height: 36px;
     border-radius: 20px;
     text-align: center;
-    /* font-size: 13px;
-    width: 40px;
-    height: 40px;
-    border: 1px solid #ff0076;    
-    border-radius: 40px;
-    background: linear-gradient(45deg, #590f87 0, #ff0076 50%,#590f87 100%) */
 }
 
 /* Aqui empiezan las cards */
@@ -416,9 +417,9 @@ li {
     width: 95%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 0 50px;
     gap: 30px;
     padding-top: 50px;
+    justify-items: center;
 }
 
 .card-1 {
@@ -427,16 +428,6 @@ li {
     border-radius: 20px;
     box-shadow: 0 0 60px rgb(0 0 0 / 10%);
 }
-
-/* .card-1::before{
-    content: url('/img/img-feed/owner1.png');
-    display:block;
-    width: 75px;
-    height:75px;
-    position:absolute;
-    left: 20px;
-    top: 184px;
-} */
 .card--figure img {
     width: 300px;
     height: 200px;
@@ -628,4 +619,185 @@ li {
     font-family: 'Lexend', sans-serif;
     margin-top: 30px;
     margin-left: 50px;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    background-color: #101f41;
+    justify-content: center;
+
+    
+}
+.footer-div-principal{
+    width: 95%;
+    padding-top: 70px;
+}
+.footer-div-1{
+    display: grid;
+    grid-template-columns: 25% 17% 17% 17% 25%;
+    padding-bottom: 65px;
+}
+.footer-datos-1{
+    font-family: 'Roboto', sans-serif;
+    width: 95%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+    padding: 0 15px;
+}
+.footer-datos-1 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-datos-1-redes{
+    display: flex;
+}
+.footer-datos-1-redes figure{
+    border: 1px solid #2b3655;
+    border-width: 20px;
+    border-radius: 60px;
+    background-color: #2b3655;
+}
+.redes1{
+    display: flex;
+    width: 22px;
+    height: 19px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    padding: 3px 3px;
+    
+}
+.redes1 img{
+    width: 22px;
+    height: 19px;
+}
+.redes2{
+    display: flex;
+    width: 22px;
+    height: 19px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    padding: 3px 3px;
+    
+}
+.redes2 img{
+    width: 20px;
+    height: 20px;
+}
+.redes3{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    padding: 3px 3px;
+    
+}
+.redes3 img{
+    width: 20px;
+    height: 20px;
+}
+.redes4{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    padding: 3px 3px;
+    
+}
+.redes4 img{
+    width: 15px;
+    height: 15px;
+}
+.footer-datos-2{
+    color: white;
+}
+.footer-datos-2 h2{
+    font-family: 'Lexend', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+.footer-datos-2 span{
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.footer-datos-2-marketplace{
+    margin-top: 30px;
+}
+.footer-datos-2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+
+.footer-button__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+    color: white;
+    background: linear-gradient(45deg, #590f87 0, #ff0076 50%,#590f87 100%);
+    border: 1px solid rgb(88, 92, 117);
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+.footer-button__img img{
+    padding: 6px;
+}
+.form-control-div a{
+    margin-left: 159px;
+    margin-top: -48px;
+    
+}
+.form-control{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.footer-div-2{
+    display: flex;
+    border-top: 1px solid #2a3652;
+    padding-top: 30px;
+    border-bottom: 1px solid #2a3652;
+    padding-bottom: 30px;
+
+}
+.footer-div-2 img{
+    margin: 0 55px;
+    
+}
+.footer-div-3{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 0;
+
+    
+}
+.div-3-final{
+    display: flex;
+}
+.div-3-final p{
+    padding: 0 10px;
 }
