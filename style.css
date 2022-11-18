@@ -1,18 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
+
 body {
-    
+
     font-size: 16px;
 }
 
 header {
     display: flex;
     min-height: 90px;
-    
+
     background-color: #ffffff;
     justify-content: space-around;
     align-items: center;
@@ -77,7 +78,7 @@ nav :hover {
 
 .btn-1 {
     width: 200px;
-    margin-right:40px ;
+    margin-right: 40px;
     text-align: center;
     color: #fff;
     transition: transform .3s;
@@ -91,13 +92,13 @@ nav :hover {
     transition: all .3s;
 }
 
-.btn-1:hover{
+.btn-1:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 
 .btn-2:hover {
-    background: linear-gradient(45deg, #590f87 0, #ff0076 50%, #590f87 100%);
+
     border-color: #28315b;
     transform: scale(1.1);
     cursor: pointer;
@@ -112,10 +113,8 @@ nav :hover {
     height: 600px;
     width: 100vw;
     display: flex;
-    /* flex-direction: column; */
     background-color: #28315b;
     padding: 20px 0;
-    /* flex-wrap: wrap; */
     align-items: flex-start;
     justify-content: center;
 }
@@ -123,7 +122,8 @@ nav :hover {
 .baner_item {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;;
+    justify-content: flex-start;
+    ;
 }
 
 .baner_images {
@@ -137,7 +137,7 @@ nav :hover {
     height: auto;
     position: absolute;
     left: -280px;
-    
+
 }
 
 .banner2-container {
@@ -186,28 +186,28 @@ nav :hover {
     flex-direction: column;
     align-items: flex-start;
     /* justify-content: center; */
-    row-gap:30px ;
+    row-gap: 30px;
     margin-right: 5%;
     width: 60%;
     color: #ffffff;
     margin-left: 40px;
 }
 
-.contenedor-texto h1{
-    font-size:450% ;
+.contenedor-texto h1 {
+    font-size: 450%;
     font-family: 'Lexend', sans-serif;
 }
 
-h5{
+h5 {
     font-size: 150%;
     font-family: 'Lexend', sans-serif;
 }
 
-p{
+p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.fil{
+.fil {
     display: flex;
     width: 30%;
     justify-content: space-around;
@@ -220,55 +220,63 @@ li {
 }
 
 
-.color, .mas {
+.color,
+.mas {
     color: #ff0076;
 }
 
 /* Manu seccion 2 y 3 */
 
 /* Aqui empieza la seccion 2 */
-.section2{
+.section2 {
     width: 100vw;
     background-color: #fff;
     font-family: 'Lexend', sans-serif;
     padding: 120px 0 90px 0;
     text-align: center;
-    
+
 }
+
 /* este es el div que contine todo lo de seccion 2 */
-.section2-div{
+.section2-div {
     width: 95%;
     display: inline-block;
     /* margin: 0 128px; */
     padding: 0 12px;
-    
-    
+
+
 }
+
 /* Titulo de la seccion 2 */
-.div__title{
+.div__title {
     display: flex;
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 50px;
 }
+
 /* Este es el iv que contiene todos los iconos svg */
-.div__icons{
+.div__icons {
     width: 100%;
 }
-.div__icons ul{
+
+.div__icons ul {
     list-style: none;
 }
+
 /* Esta es la clase del ul */
-.div--icons__list{
+.div--icons__list {
     display: flex;
     justify-items: center;
     flex-wrap: wrap;
 }
-.li--margin{
+
+.li--margin {
     margin-right: 29px;
     margin-bottom: 30px;
 }
-.list--img{
+
+.list--img {
     display: flex;
     width: 190px;
     height: 190px;
@@ -276,56 +284,66 @@ li {
     background-color: white;
     box-shadow: 0 0 60px rgb(0 0 0 / 10%);
     -webkit-box-align: center;
-    justify-content: center; 
-    
+    justify-content: center;
+
 }
-.list--img img{
-    width: 30%; 
+
+.list--img img {
+    width: 30%;
 }
-.list--title{
+
+.list--title {
     margin-top: 28px;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
 }
-.list--icon__secundario{
+
+.list--icon__secundario {
     margin-right: 30px;
 
 }
-.li--padding{
+
+.li--padding {
     align-self: center;
     padding-bottom: 60px;
 }
-.section3{
+
+.section3 {
     width: 100vw;
     background-color: rgb(236, 241, 249, 0.3);
     font-family: 'Lexend', sans-serif;
     /* padding: 120px 0 90px 0; */
 }
-.section3-div{
+
+.section3-div {
     width: 95%;
     display: inline-block;
     /* margin: 0 128px; */
     height: auto;
-    
-    
+
+
 }
-.div--nav{
+
+.div--nav {
     width: 100%;
     display: flex;
     /* grid-template-columns: repeat(3, 1fr); */
     justify-content: space-around;
     align-items: center;
     padding-top: 120px;
-    
+
 }
-.nav--div__h2{
+
+.nav--div__h2 {
     font-size: 26px;
 }
-.nav--following{
-    align-self: center; 
+
+.nav--following {
+    align-self: center;
 }
-.nav--following button{
+
+.nav--following button {
     font-size: 13px;
     font-family: 'Lexend', sans-serif;
     color: rgb(88, 92, 117);
@@ -335,9 +353,10 @@ li {
     width: 150px;
     height: 40px;
     border-radius: 20px;
-    
+
 }
-.button{
+
+.button {
     display: inline-block;
     margin: 0 13px;
     border: 1px solid transparent;
@@ -347,24 +366,29 @@ li {
     font-family: 'Lexend', sans-serif;
     font-weight: 400;
     color: #585c75;
-    background: none;    
+    background: none;
 }
-.button p{
+
+.button p {
     padding: 0 10px;
 }
-.button:hover{
+
+.button:hover {
     border: 1px solid rgb(255, 14, 126);
     color: rgb(255, 14, 126);
 }
-.nav--ul{
+
+.nav--ul {
     display: flex;
     align-self: center;
 }
-.nav--li__img img{
+
+.nav--li__img img {
     width: 20px;
     height: 20px;
 }
-.nav--li__img{
+
+.nav--li__img {
     /* display: flex; */
     display: flex;
     justify-content: center;
@@ -373,7 +397,7 @@ li {
     font-weight: 500;
     font-family: 'Lexend', sans-serif;
     color: white;
-    background: linear-gradient(45deg, #590f87 0, #ff0076 50%,#590f87 100%);
+    background: linear-gradient(45deg, #590f87 0, #ff0076 50%, #590f87 100%);
     border: 1px solid rgb(88, 92, 117);
     width: 120px;
     height: 35px;
@@ -388,7 +412,7 @@ li {
 }
 
 /* Aqui empiezan las cards */
-.card{
+.card {
     width: 95%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -396,12 +420,14 @@ li {
     gap: 30px;
     padding-top: 50px;
 }
-.card-1{
+
+.card-1 {
     width: 300px;
     height: 400px;
     border-radius: 20px;
     box-shadow: 0 0 60px rgb(0 0 0 / 10%);
 }
+
 /* .card-1::before{
     content: url('/img/img-feed/owner1.png');
     display:block;
@@ -413,99 +439,115 @@ li {
 } */
 .card--figure img {
     width: 300px;
-    height:200px;
+    height: 200px;
 }
-.contenedor-userimage{
+
+.contenedor-userimage {
     position: relative;
     display: grid;
-    grid-template-columns: 33% 33% 33%; 
+    grid-template-columns: 33% 33% 33%;
     top: -21px;
     right: -21px;
 }
-.contenedor-userimage__item--1{
+
+.contenedor-userimage__item--1 {
     z-index: 1;
 }
-.contenedor-userimage__item--2{
-    
+
+.contenedor-userimage__item--2 {
+
     margin-left: -85px;
     z-index: 2;
 }
-.contenedor-userimage__item--3{
-    
+
+.contenedor-userimage__item--3 {
+
     margin-left: -170px;
     z-index: 3;
 }
 
-.contenedor-userimage img{
+.contenedor-userimage img {
     border-radius: 100%;
     border: 1.2px solid black;
 }
 
-.card-div-principal{
+.card-div-principal {
     width: 100%;
 
-    
+
 }
-.card-div-principal h2{
+
+.card-div-principal h2 {
     font-size: 18px;
     font-weight: 500;
     text-align: start;
     margin-top: 10px;
     margin-left: 35px;
 }
-.card-title2{
+
+.card-title2 {
     display: flex;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
     margin-top: 10px;
     padding-bottom: 15px;
 }
-.card-title2 h3{
+
+.card-title2 h3 {
     font-size: 13px;
     font-weight: 600;
 }
-.card-title2 .car-title2-h3-1{
+
+.card-title2 .car-title2-h3-1 {
     color: #ff0076;
     margin-right: 48px;
 }
-.card-title2 .car-title2-h3-2{
+
+.card-title2 .car-title2-h3-2 {
     color: #585c75;
 }
-.card-title3{
+
+.card-title3 {
     display: flex;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
     padding-top: 30px;
     border-top: 1px solid #f2f2f2;
 }
-.card-title3__1{
+
+.card-title3__1 {
     display: flex;
     align-items: center;
-    
+
 
 }
-.card-title3__1 img{
+
+.card-title3__1 img {
     width: 20px;
     height: 20px;
-    
+
 }
-.card-title3__1 h3{
+
+.card-title3__1 h3 {
     font-size: 13px;
     font-weight: 400;
     color: #585c75;
     padding-left: 7px;
 }
-.card-title3__2{
-    align-self: center; 
+
+.card-title3__2 {
+    align-self: center;
 
 }
-.card-title3__2 img{
+
+.card-title3__2 img {
     width: 13px;
     height: 13px;
     padding-right: 4px;
 
 }
-.card-title3__2 button{
+
+.card-title3__2 button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -518,5 +560,72 @@ li {
     width: 120px;
     height: 35px;
     border-radius: 20px;
-    
+
+}
+
+/* carrusel */
+
+.contenedor-grid {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 50px;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.card-carrusel {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgb(0 0 0 / 10%);
+}
+
+.card--carrusel img {
+    width: 200px;
+    height: 100px;
+}
+
+
+.contenedor-img-item {
+    position: relative;
+    top: -21px;
+    right: -2px;
+    text-align: center;
+
+}
+
+.contenedor-img-item img {
+    border: 5px solid #ffffff;
+    border-radius: 100%;
+}
+
+.contenedor-img {
+    height: 100%;
+}
+
+
+.contenedor_img_datos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.card-button {
+    margin-top: 15px;
+    font-size: 13px;
+    font-family: 'Lexend', sans-serif;
+    width: 50%;
+    padding: 6%;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 50px;
+    background: linear-gradient(45deg, #590f87 0, #ff0076 50%, #590f87 100%);
+}
+
+.titulosection4 {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
 }
