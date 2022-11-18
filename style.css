@@ -49,28 +49,38 @@ nav :hover {
 }
 
 .contenedor-btn {
+    align-self: flex-start;
     display: flex;
-    width: 70%;
-    justify-content: space-around;
+    /* width: 70%; */
+    /* justify-content: space-around; */
 }
 
-.btn-1 {
-    
-    width: 200px;
-    margin: 0 40px;
-    text-align: center;
-    color: #fff;
+.contenedor-btn a {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 5px;
+    font-family: sans-serif;
 }
+
+.contenedor-btn a img {
+    width: 20px;
+    height: auto;
+}
+
 
 .btn-1 img,
 .btn-2 img {
     width: 18px;
     height: 18px;
+    filter: invert(100%);
 }
 
-.btn-2:hover {
-    background: linear-gradient(45deg, #590f87 0, #ff0076 50%, #590f87 100%);
-    border: 0;
+.btn-1 {
+    width: 200px;
+    margin-right:40px ;
+    text-align: center;
+    color: #fff;
+    transition: transform .3s;
 }
 
 .btn-2 {
@@ -78,39 +88,56 @@ nav :hover {
     width: 200px;
     text-align: center;
     border: 2px solid #ffffff;
+    transition: all .3s;
 }
+
+.btn-1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background: linear-gradient(45deg, #590f87 0, #ff0076 50%, #590f87 100%);
+    border-color: #28315b;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 .from {
     border: 0;
 }
 
 .baner {
+    height: 600px;
+    width: 100vw;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    /* flex-direction: column; */
     background-color: #28315b;
-    padding: 20px;
-    flex-wrap: wrap;
+    padding: 20px 0;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .baner_item {
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: flex-start;;
 }
 
 .baner_images {
+    flex: 1;
     position: relative;
 }
 
 .baner1 {
-    width: 500px;
+    flex: 1;
+    width: 400px;
     height: auto;
-    /* position: absolute;
-    z-index: 20;
-    top: 0;
-    left: 0; */
+    position: absolute;
+    left: -280px;
+    
 }
 
 .banner2-container {
@@ -121,7 +148,7 @@ nav :hover {
     position: absolute;
     z-index: 30;
     top: 70px;
-    left: 20px;
+    left: -300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,13 +162,13 @@ nav :hover {
 
 
 .banner3-container {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 50%;
     border-radius: 50%;
     position: absolute;
     z-index: 50;
     top: 450px;
-    left: 280px;
+    left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,13 +181,16 @@ nav :hover {
     border-radius: 50%;
 }
 
-.contenedor-texto {
+.contenedor-texto-baner {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: center; */
+    row-gap:30px ;
     margin-right: 5%;
     width: 60%;
     color: #ffffff;
+    margin-left: 40px;
 }
 
 .contenedor-texto h1{
@@ -183,6 +213,10 @@ p{
     justify-content: space-around;
     font-family: 'Lexend', sans-serif;
     font-size: 150%;
+}
+
+li {
+    list-style: none;
 }
 
 
